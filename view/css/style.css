@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "TTNorms";
+  src: url(../fonts/TT-Norms-Fonts/TTNorms.otf) format("opentype");
+}
+@font-face {
+  font-family: "TTNorms";
+  font-weight: bold;
+  src: url(../fonts/TT-Norms-Fonts/TTNorms-Bold.otf) format("opentype");
+}
+body {
+  font-family: TTNorms;
+}
+#company-item {
+  padding: 20px 30px;
+}
+.img-container {
+  height: 300px;
+  background-color: white;
+  text-align: center;
+}
+div.acc {
+  font-size: 18px;
+  padding: 15px 20px;
+}
+h4.sub {
+  padding-bottom: 30px;
+  font-family: TTNorms;
+}
+.card-content {
+  transition: 0.5s;
+}
+.card-content:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 4px 20px 0 rgba(30, 144, 255, 0.19);
+  background-color: dodgerblue;
+  color: white !important;
+}
+
+.sub-name {
+  padding: 0;
+  margin: 0;
+}
+.name {
+  padding: 0;
+  margin: 0;
+  font-family: TTNorms;
+  font-weight: bold;
+}
+.img-admin {
+  padding: 10px 0px;
+}
+a.w3-bar-item.w3-button.links {
+  font-size: 18px;
+  padding: 15px 20px;
+}
+p.accordion {
+  font-size: 30px;
+}
+i.far {
+  padding-right: 10px;
+}
+i.fas {
+  padding-right: 10px;
+}
